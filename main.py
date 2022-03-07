@@ -1,4 +1,4 @@
-def printLightHouse(Array, n):
+def findLeftMostNumber(Array, n):
     '''
     출력 배열의 i번째 배열은 입력 배열의 i번째 원소 기준으로 왼쪽으로 입력 배열의 i번째 원소보다 큰 첫번째 원소의 인덱스이다.
     배열에는 같은 수가 절대 존재하지 않는다. 
@@ -48,4 +48,4 @@ def printLightHouse(Array, n):
 # Array = [ 1, 2, 1, 2, 1]
 Array = [5, 2, 1, 3]
 n = len(Array)
-printLightHouse(Array, n)
+findLeftMostNumber(Array, n)
